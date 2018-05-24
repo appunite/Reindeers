@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B2E7B1AD20B6F08D00EA3B79 /* module.modulemap in CopyFiles */ = {isa = PBXBuildFile; fileRef = B2E7B1AB20B6F08C00EA3B79 /* module.modulemap */; };
+		B2E7B1AE20B6F08D00EA3B79 /* Reindeers-libxml2.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = B2E7B1AC20B6F08C00EA3B79 /* Reindeers-libxml2.h */; };
 		D23012D81FB9B9A800F6DD45 /* Document.swift in Sources */ = {isa = PBXBuildFile; fileRef = D29680411DA99B8200F42E33 /* Document.swift */; };
 		D23012D91FB9B9A800F6DD45 /* Element.swift in Sources */ = {isa = PBXBuildFile; fileRef = D29680431DA99B8800F42E33 /* Element.swift */; };
 		D23012DA1FB9B9A800F6DD45 /* Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = D29680471DA99E6C00F42E33 /* Error.swift */; };
@@ -59,7 +61,23 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		B2E7B1AA20B6F07400EA3B79 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = Cocoapods;
+			dstSubfolderSpec = 1;
+			files = (
+				B2E7B1AD20B6F08D00EA3B79 /* module.modulemap in CopyFiles */,
+				B2E7B1AE20B6F08D00EA3B79 /* Reindeers-libxml2.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		B2E7B1AB20B6F08C00EA3B79 /* module.modulemap */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.module-map"; name = module.modulemap; path = CocoaPods/module.modulemap; sourceTree = "<group>"; };
+		B2E7B1AC20B6F08C00EA3B79 /* Reindeers-libxml2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "Reindeers-libxml2.h"; path = "CocoaPods/Reindeers-libxml2.h"; sourceTree = "<group>"; };
 		D2525A541DAAD1AB002E759E /* Element+Query.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Element+Query.swift"; sourceTree = "<group>"; };
 		D27FDB0C1FB99F8600B9B26C /* test3.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = test3.html; sourceTree = "<group>"; };
 		D27FDB0D1FB99F8600B9B26C /* test4.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = test4.svg; sourceTree = "<group>"; };
@@ -164,6 +182,8 @@
 		D5B2E8951C3A780C00C0327D = {
 			isa = PBXGroup;
 			children = (
+				B2E7B1AB20B6F08C00EA3B79 /* module.modulemap */,
+				B2E7B1AC20B6F08C00EA3B79 /* Reindeers-libxml2.h */,
 				D27FDB141FB99F8600B9B26C /* Reindeers */,
 				D27FDB0B1FB99F8600B9B26C /* ReindeersTests */,
 				D500FD111C3AABED00782D78 /* Playground-iOS.playground */,
@@ -253,6 +273,7 @@
 				D5B2E89B1C3A780C00C0327D /* Frameworks */,
 				D5B2E89C1C3A780C00C0327D /* Headers */,
 				D5B2E89D1C3A780C00C0327D /* Resources */,
+				B2E7B1AA20B6F07400EA3B79 /* CopyFiles */,
 			);
 			buildRules = (
 			);
@@ -601,7 +622,7 @@
 				ONLY_ACTIVE_ARCH = YES;
 				OTHER_LDFLAGS = "-lxml2";
 				SDKROOT = iphoneos;
-				SWIFT_INCLUDE_PATHS = "$(SRCROOT)/Cocoapods";
+				SWIFT_INCLUDE_PATHS = Cocoapods;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -657,7 +678,7 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				OTHER_LDFLAGS = "-lxml2";
 				SDKROOT = iphoneos;
-				SWIFT_INCLUDE_PATHS = "$(SRCROOT)/Cocoapods";
+				SWIFT_INCLUDE_PATHS = Cocoapods;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
