@@ -650,7 +650,7 @@
 				ONLY_ACTIVE_ARCH = YES;
 				OTHER_LDFLAGS = "-lxml2";
 				SDKROOT = iphoneos;
-				SWIFT_INCLUDE_PATHS = Cocoapods;
+				SWIFT_INCLUDE_PATHS = "$(REINDEERS_FRAMEWORK_DIR)/Cocoapods Cocoapods";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -706,7 +706,7 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				OTHER_LDFLAGS = "-lxml2";
 				SDKROOT = iphoneos;
-				SWIFT_INCLUDE_PATHS = Cocoapods;
+				SWIFT_INCLUDE_PATHS = "$(REINDEERS_FRAMEWORK_DIR)/Cocoapods Cocoapods";
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
