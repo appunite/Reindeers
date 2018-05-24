@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B2DC5ACC20B6F95C00A62018 /* module.modulemap in CopyFiles */ = {isa = PBXBuildFile; fileRef = B2E7B1AB20B6F08C00EA3B79 /* module.modulemap */; };
+		B2DC5ACD20B6F95C00A62018 /* Reindeers-libxml2.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = B2E7B1AC20B6F08C00EA3B79 /* Reindeers-libxml2.h */; };
+		B2DC5ACF20B6F97200A62018 /* module.modulemap in CopyFiles */ = {isa = PBXBuildFile; fileRef = B2E7B1AB20B6F08C00EA3B79 /* module.modulemap */; };
+		B2DC5AD020B6F97200A62018 /* Reindeers-libxml2.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = B2E7B1AC20B6F08C00EA3B79 /* Reindeers-libxml2.h */; };
 		B2E7B1AD20B6F08D00EA3B79 /* module.modulemap in CopyFiles */ = {isa = PBXBuildFile; fileRef = B2E7B1AB20B6F08C00EA3B79 /* module.modulemap */; };
 		B2E7B1AE20B6F08D00EA3B79 /* Reindeers-libxml2.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = B2E7B1AC20B6F08C00EA3B79 /* Reindeers-libxml2.h */; };
 		D23012D81FB9B9A800F6DD45 /* Document.swift in Sources */ = {isa = PBXBuildFile; fileRef = D29680411DA99B8200F42E33 /* Document.swift */; };
@@ -62,6 +66,28 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
+		B2DC5AC720B6F92B00A62018 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = Cocoapods;
+			dstSubfolderSpec = 1;
+			files = (
+				B2DC5ACC20B6F95C00A62018 /* module.modulemap in CopyFiles */,
+				B2DC5ACD20B6F95C00A62018 /* Reindeers-libxml2.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2DC5ACE20B6F96600A62018 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = Cocoapods;
+			dstSubfolderSpec = 1;
+			files = (
+				B2DC5ACF20B6F97200A62018 /* module.modulemap in CopyFiles */,
+				B2DC5AD020B6F97200A62018 /* Reindeers-libxml2.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		B2E7B1AA20B6F07400EA3B79 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -255,6 +281,7 @@
 				D2B1EE6B1FB9A85300A795FF /* Frameworks */,
 				D2B1EE6C1FB9A85300A795FF /* Headers */,
 				D2B1EE6D1FB9A85300A795FF /* Resources */,
+				B2DC5AC720B6F92B00A62018 /* CopyFiles */,
 			);
 			buildRules = (
 			);
@@ -310,6 +337,7 @@
 				D5C6293C1C3A7FAA007F7B7C /* Frameworks */,
 				D5C6293D1C3A7FAA007F7B7C /* Headers */,
 				D5C6293E1C3A7FAA007F7B7C /* Resources */,
+				B2DC5ACE20B6F96600A62018 /* CopyFiles */,
 			);
 			buildRules = (
 			);
